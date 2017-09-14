@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Welcome from './Welcome'
+// import Welcome from './Welcome'
 // import {Welcome} from './Welcome'
-// import App from './App';
+import App from './App';
 // import registerServiceWorker from './registerServiceWorker';
 
 // ReactDOM.render(
@@ -28,6 +28,6 @@ import Welcome from './Welcome'
 // setInterval(tick, 1000);
 
 ReactDOM.render(
-  <Welcome name="xww" />,
+  <App/>,
   document.getElementById('root')
 )
